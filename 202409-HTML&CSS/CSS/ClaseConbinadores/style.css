@@ -1,3 +1,12 @@
-h2 ~ p {
+/*h2 ~ p {
+    color: red;
+}*/
+/*hijo
+div > p {
+    color: red;
+}
+    */
+/*Decendiente*/
+div p {
     color: red;
 }
