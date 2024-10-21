@@ -27,10 +27,12 @@ body {
     -ms-transition: transform 0.4s ease-in-out;
     -o-transition: transform 0.4s ease-in-out;
 }
+
 img {
     width: 500px;
     height: auto;
 }
+
 .btn {
     position: absolute;
     top: 50%;
@@ -51,4 +53,8 @@ img {
 
 .btn.next {
     right: 10px;
+}
+
+.btn:hover {
+    opacity: 1;
 }
