@@ -9,7 +9,7 @@
 }
 
 .container {
-    background: yellow;
+    background: green;
     width: 180px;
     height: 180px;
 }
@@ -34,4 +34,12 @@
     display: aline-block;
     line-height: 45px;
     vertical-align: top;
+}
+
+.element2 {
+    @extend .element;
+    background: papayawhip;
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: middle;
 }
