@@ -1,0 +1,21 @@
+.body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 100%;
+}
+
+.input,
+.textarea,
+.select,
+.buttom {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
