@@ -1,0 +1,12 @@
+/* Clase Arrays */
+
+Mutabilidad
+
+push
+    - Descripción: Agrega uno o más elementos al final de un array.
+    - Mutabilidad: Modifica el array original.
+
+pop
+    -Descripción: Elimina el último elemento de un array.
+    -Mutabilidad: Modifica el array original.
+    -Devuelve el elemento eliminado.
