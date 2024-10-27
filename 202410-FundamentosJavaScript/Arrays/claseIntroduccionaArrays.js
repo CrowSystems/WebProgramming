@@ -48,3 +48,30 @@ console.log(firstFruit)
 //conocer el tamaño del array
 const numberOfFruits = fruits.length
 console.log(numberOfFruits)
+
+//Mutability
+//agregar nuevos valores a un array
+fruits.push('watermelon')
+console.log(fruits)
+
+//Inmutability
+//copiar el contenido de un array a otro sin modificar el orifinal
+const newFruits = fruits.concat(['graoe', 'kiwi'])
+console.log(fruits)
+console.log(newFruits)
+
+//checking arrays with Array.isArray()
+//Verificar si un array es un array, esto arrojara un booleano de true o false.
+const isArray =Array.isArray(fruits)
+console.log(isArray)
+
+//Practial exercise: sum all elements of an array
+//Suma de todos de los elementos de array revisados.
+const numberArray = [1, 2, 3, 4, 5]
+let sum = 0
+
+for(let i = 0; i< numberArray.length; i++) {
+    sum += numberArray[i]
+}
+
+console.log(sum)
