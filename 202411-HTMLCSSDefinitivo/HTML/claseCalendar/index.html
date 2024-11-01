@@ -3,17 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calendario</title>
 </head>
 <body>
     <main>
-        <input list="cursos" />
-        <datalist id="cursos">
-            <option value="JavaSript"></option>
-            <option value="HTML5"></option>
-            <option value="CSS3"></option>
-            <option value="Web Standars"></option>
-        </datalist>
+        <form action="">
+            <label for="nombre">
+            <span>¿Cual es tu nombre?</span>
+            <input 
+                type="text" 
+                name="nombre" 
+                id="nombre"
+                autocomplete="name"
+                required 
+            />
+            </label>
+            <label for="correo">
+                <span>¿Cual es tu email</span>
+                <input 
+                    type="email"
+                    name="correo"
+                    id="correo"
+                    autocomplete="email"
+                    required
+                    >
+            </label>
+        </form>
     </main>
+    
 </body>
 </html>
