@@ -1,0 +1,11 @@
+- Introducción al curso 
+- Que es HTML y CSS y para que sirve
+- Motores de render, archivos a pixeles
+- Anatomia de un documento de HTML y sus elementos.
+- ¿Que es HTML semántico?
+- Etiquetas HTML más usadas.
+- Anatomía de una declaración CSS: selectores, propiedasdes y valores.
+- Tipos de selectores: básicos y combinadores.
+Tipos de selectores: pseudoclases y pseudoelementos.
+Cascada y especificidad en CSS
+Tipos de display más usado: block, inline e inline-block
