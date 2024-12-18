@@ -1,0 +1,4 @@
+Que es el DOM?
+Document and Window Object, Es una web API que tiene el navegador.
+Con el DOM se pueden hacer las webs mas dinamicas y se pueden seleccionar y modificar elementos en el DOM
+Window Object
