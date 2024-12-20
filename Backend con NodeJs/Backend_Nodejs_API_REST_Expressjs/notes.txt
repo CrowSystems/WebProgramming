@@ -1,0 +1,56 @@
+************Notas************
+Configuración de GITIGNORE
+Para la configuración del git ignore debemos de dirigirnos a la siguiente pagina
+ya que nos genera un codigo de configuración para que al cargar al repositorio pueda
+ignorar cierta información y no generar contenido basura en nuestros programas:
+
+La configuración que se debe de seleccionar por defecto es:
+
+1.-Lenguaje de programación que se este utilizando en el proyecto.
+2.-Sistemas operativos comunes (Windows, Linux, MacOs
+3.- Aceptar la configuración para que mande la configuración que sera necesaria pegarla
+en nuestro archivo .gitignore del proyecto.
+
+CONFIGURACIÓN DE .EDITORCONFIG
+Editorconfig nos ayuda cuando son muchas personas en el area de desarrollo y que cuando crean
+inician o configuran el proyecto todos tengan la misma configuración, con el siguiente codigo ayuda
+a reiniciar la configuración del codigo y establecer una nueva configuración.
+
+CODIGO:
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.js]
+quote_type = single
+
+[*.md]
+max_line_length = off
+trim_trailing_whitespace = false
+
+CONFIGURACIÓN DE .ESLINTRC.JSON
+El .eslintrc es la configuración ue nos funcionara para obtener las mejores practicas para el
+desarrollo dentro de nuestro código, indicaremos en estr caso que utilizaremos el estandar es6,
+tambien a prettier y recomendaciones de esliht:recommended
+CODIGO:
+{
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "extends":["eslint:recommended", "prettier"],
+  "env":{
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "rules": {
+    "no-console": "warn"
+  }
+}
+
+

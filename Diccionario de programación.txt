@@ -1,0 +1,23 @@
+Trackear: En programación la palabra Trackear o rastrear código es un proceso
+que inspecciona el flujo de código fuente de una aplicación al realizar una 
+función específica. Esto ayuda a los desarrolladores a comprender el flujo de 
+código y a identificar problemas desconocidos.
+
+Alguna herramientas para el seguimiento de código son:
+
+    Trace:
+    Permite rastrear la ejecución del programa, generar listas de cobertura de
+    declaraciones anotadas, e imprimir relaciones entre llamador/destinatario.
+
+    Coding Tracker:
+    Es una herraminta de rastreo para Visual Studi Code que permite saber 
+    cuánto tiempo se pasa en cada archivo proyecto, lenguaje o branch
+
+El archivo eslintric.js es un archivo de configuración para la herramientas ESLint, 
+que sirve para analizar el código JavaScript y detectar probleas:
+
+    Identificar errores de sintaxis.
+    Detectar errores cuando no se siguen buenas prácticas
+    Proveer segerencias para mejorar el código.
+    Mantener un estilo consistente en el código.
+    
