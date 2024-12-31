@@ -1,0 +1,4 @@
+Este NavBar cuenta con un diseño responsivo y adaptable,
+cuenta con espacio de 1 logotipo, 4 submenus y un boton
+el diseño en transparencias para un manejo sencillo de la
+navegación.
