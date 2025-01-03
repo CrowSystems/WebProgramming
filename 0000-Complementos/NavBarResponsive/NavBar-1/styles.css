@@ -123,6 +123,20 @@ header{
     justify-content: center;
 }
 
+/* HERO */
+section#hero{
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--white);
+}
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
 /* RESPONSIVE DESIGN */
 @media (max-width: 992px){
     .navbar .links,
