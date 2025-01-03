@@ -26,6 +26,11 @@ body {
     height: 80px;
     text-align: center;
 }
+.btn.open{
+    width: 400px;
+    height: 160px;
+}
+
 /*FRONT SIDE*/
 .front {
     position: absolute;
@@ -45,6 +50,7 @@ body {
 .front:hover{
     background-color: var(--light-red);
 }
+
 /*BACK SIDE*/
 .back{
     position: absolute;
@@ -52,4 +58,47 @@ body {
     height: 100%;
     padding: 20px;
     background-color: #eee;
+    color: #222;
+    overflow: hidden;
+}
+
+.btn.open .back{
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+}
+.back p {
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
+.back button{
+    padding: 12px 20px;
+    width: 30%;
+    margin: 0 5px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    cursor: pointer;
+    transition: background 0.15s ease;
+    -webkit-transition: background 0.15s ease;
+    -moz-transition: background 0.15s ease;
+    -ms-transition: background 0.15s ease;
+    -o-transition: background 0.15s ease;
+}
+.back .btn_yes {
+    background-color: var(--blue);
+    color: var(--white);
+}
+.back .btn_yes:hover {
+    background-color: var(--light-blue);
+}
+.back .btn_no {
+    color: var(--blue);
+}
+.back .btn_no:hover {
+    background-color: var(--white);
 }
