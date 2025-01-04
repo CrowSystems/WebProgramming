@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Clase de manejo de la herramieta del selector">
+    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <!--Este primer selector solo se utilizara cuando la selección es corta y rapida-->
+        <select name="cursos" id="">
+            <option value="JavaScript">JavaScript</option>
+            <option value="HTML5">HTML5</option>
+            <option value="CSS3">CSS3</option>
+            <option value="Web Standards">WebStandars</option>
+        </select>
+        <br/>
+        <!--Este segundo selector te permitira escribir y seleccionar la opción indicada-->
+        <input list="cursos">
+        <datalist id="cursos">
+            <option value="JavaScript">JavaScript</option>
+            <option value="HTML5"></option>
+            <option value="CSS3"></option>
+            <option value="WebStandars"></option>
+        </datalist>
+    </main>
+</body>
+</html>
