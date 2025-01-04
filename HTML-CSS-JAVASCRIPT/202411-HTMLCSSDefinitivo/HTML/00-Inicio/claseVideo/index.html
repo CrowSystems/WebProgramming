@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Modelado de videos con html" />
+    <meta name="robots" content="index,follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño de videos</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <video controls preload="auto">
+                <!--Esto se utiliza para cuando algun navegador no detecta algun formato de video
+                se colocan en forma de lista -->
+                <source src="./INTRO.mp4#t=01,02">
+                <source src="./INTRO.m4v#t=01,02">
+            </video>
+        </section>
+    </main>
+</body>
+</html>
