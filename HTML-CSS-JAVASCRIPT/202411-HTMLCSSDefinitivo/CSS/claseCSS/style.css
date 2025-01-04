@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --blue: #5091FA
+}
+
+p{
+    color: var(--blue);
+    font-size: 40px;
+}
+
+/*CLASS*/
+.clase1{
+    color: red;
+}
+
+/*ID*/
+#id-1 {
+    color: yellowgreen;
+    font-size: 24px;
+}
