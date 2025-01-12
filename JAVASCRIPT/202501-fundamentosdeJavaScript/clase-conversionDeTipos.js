@@ -25,10 +25,12 @@ console.log(sumwithBoolean)
 const stringValue = '10'
 const numberValue = 10
 const booleanValue = true
-console.log(stringValue + stringValue)
-console.log(stringValue + numberValue)
-console.log(stringValue + booleanValue)
-console.log(numberValue + stringValue)
-console.log(numberValue + numberValue)
-console.log(numberValue + booleanValue)
-console.log(booleanValue + stringValue)
+console.log(stringValue + stringValue)  //CONCATENA
+console.log(stringValue + numberValue)  //CONCATENA
+console.log(stringValue + booleanValue) //CONCATENA
+console.log(numberValue + stringValue)  //CONCATENA
+console.log(numberValue + numberValue)  //SUMA
+console.log(numberValue + booleanValue) //SUMA
+console.log(booleanValue + stringValue) //CONCATENA
+console.log(booleanValue + numberValue) //SUMA
+console.log(booleanValue + booleanValue)//SUMA
