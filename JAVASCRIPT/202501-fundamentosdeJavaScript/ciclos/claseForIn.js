@@ -1,6 +1,8 @@
 /**
  * La estructura For in es utilizado para manejar estructuras
- * enumerables.
+ * enumerables, intera sobre tolas las propiedades enumerables de un objeto
+ * que está codificado por cadenas (ignorando los codificadores por simbolos,
+ * incluidas las propiedades enumeradles heredades)
  * 
  * for in ---> objetos
  * propiedades = valor
