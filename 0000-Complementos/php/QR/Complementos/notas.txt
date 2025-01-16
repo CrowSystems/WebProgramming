@@ -1,0 +1,17 @@
+Link para mas información
+Link: https://codigosdeprogramacion.com/2017/02/16/curso-de-php-y-mysql-16-generar-codigo-qr/
+
+Precisión
+Los siguientes valores se pueden colocar para la precisión de la imagen.
+
+L = BAJA
+M = MEDIANA
+Q = ALTA
+H = MAXIMA
+
+Contenido, el contenido que se puede utilizar es:
+Texto = 'Texto a mostrar'
+URL = 'Direcciones de navegación (https://www.protecnic.com.mx)'
+Télefono = 'Numeros de telefonos tel:(049)123-456-789'
+SMS >>smsto:(049)123-345-678:Cuerpo del mensaje'
+email: 'mailto:micorreo@dominio.com?subject=Asunto&body=contenido'

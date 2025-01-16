@@ -1,6 +1,14 @@
 /**
  * Arrow Functions:
+ * Las Arrow Functions o funcionalidades flecha son una expresión de una función alternativa compacta a una función
+ * tradicional, pero es limitada y no se puede utilizar en todas las situaciones.
  * 
+ * DIFERENCIAS Y LIMITACIONES:
+ * -No tiene sus propios enlaces a this o user y no se debe usar como métodos.
+ * -No tiene argumentos o palabras clave new.target
+ * -No apta para los métodos call, apply y bind, que generalmente se basan en establecer un ámbito o enlace.
+ * -No se puede utilizar como constructor
+ * -No se puede utilizar vield dentro de su cuerpo.
  */
 
 //Declaración
