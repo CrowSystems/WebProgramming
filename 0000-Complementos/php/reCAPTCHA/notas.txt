@@ -1,0 +1,7 @@
+Link de información adicional
+link: https://codigosdeprogramacion.com/cursos/?lesson=17-captcha-recaptcha-google
+
+Este ejemplo muestra como generar un recaptcha para la comprobación de humanidad en los formularios,
+se genera el proyecto dentro de Google Cluod, se genera la API para poder generar el proyecto.
+
+para este proyecto el nombre es de pruebas.
