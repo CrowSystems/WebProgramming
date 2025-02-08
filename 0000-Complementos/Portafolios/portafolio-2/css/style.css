@@ -115,7 +115,7 @@ ul {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     background: var(--bg-black-100);
-    display: none;
+    display: none; 
     align-items: center;
     justify-content: center;
 }
