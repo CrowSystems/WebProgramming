@@ -36,7 +36,8 @@ ul {
     display: block;
     position: fixed;
     left: 270px;
-    top: 0 30px;
+    padding: 0 30px;
+    top: 0;
     right: 0;
     z-index: 0;
     opacity: 1;
@@ -49,7 +50,6 @@ ul {
 .container {
     max-width: 1100px;
     width: 100%;
-    background: red;
     margin: auto;
 }
 
@@ -193,6 +193,23 @@ ul {
 }
 
 /* ==== HOME ==== */
+.home {
+    min-height: 100vh;
+    display: flex;
+    color: var(--text-black-900);
+}
+
+.home .home-info {
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+
+.home .home-img {
+    flex: 0 0 40%;
+    max-width: 40%;
+    background: red;
+}
+
 .home .home-img img {
     height:400px ;
 }
