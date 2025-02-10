@@ -37,6 +37,9 @@ ul {
     padding: 0 30px;
     opacity: 1;
 }
+.hidden {
+    display: none;
+}
 
 .main-content {
     padding-left: 270px;
@@ -51,6 +54,19 @@ ul {
     width: 100%;
     margin: auto;
 }
+
+.section .container {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.section-title {
+    flex: 0 0 100%;
+    max-width: 100%;
+    background-color: red;
+}
+
+.section-title h2
 
 .row{
     display: flex;
