@@ -3,17 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera pagina de programación</title>
+    <title>Piedra, Papel o Tijera</title>
     <script>
         //1 es puedra, 2 es papel, 3 es tijera
-        //definición inicial de variables para 
-        let jugador = 0;
-        let pc= 2;
+        //Definición de función para generar un numero aleatorio para selección de la computadora.
+        function aleatorio(min,max){
+            return Math.floor(Math.random() * (max - min + 1) + min)
+        }
 
-        jugador = prompt("Elige 1 para piedra, 2 para papel y 3 para tijera")
-        //alert("Elegiste " + jugador)
+        function eleccion(jugada) {
+            let resultado = ""
+            if(jugada == 1) {
+                resultado = "Piedra 🪨"
+            } else if(jugada == 2){
+                resultado = "papel 📄"
+            } else if(jugada == 3){
+                resultado = "tijera ✂️"
+            } else {
+                resultado = "Opcion no disponible"
+            }
+            return resultado
+        }
+
+
         if(jugador == 1) {
-            alert("Elegiste Piedre 🪨")
+            alert("Elegiste Piedra 🪨")
         } else if (jugador == 2) {
             alert("Elegiste papel 📄")
         } else if (jugador == 3) {
@@ -21,7 +35,6 @@
         } else {
             alert("Elegiste perder")
         }
-        
     </script>
 </head>
 <body>
